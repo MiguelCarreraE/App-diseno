@@ -1,49 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React Navbar, Footer, and Form</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <div id="root"></div>
+    <footer class="footer">
+        <p>Este es el footer</p>
+    </footer>
 
-    <script type="text/babel">
-        const { useState } = React;
-
-        
-        
-
-        function Footer() {
-            return (
-                <footer style={{ padding: '10px', backgroundColor: '#333', color: '#fff', textAlign: 'center' }}>
-                    <p>Este es el footer</p>
-                </footer>
-            );
-        }
-
-       
-
-        function App() {
-            return (
-                <div>
-                    <Navbar />
-                    <div style={{ minHeight: '400px', padding: '20px' }}>
-                        <h1>Primer ejercicio en React</h1>
-                        <Login />
-                    </div>
-                    <Footer />
-                </div>
-            );
-        }
-
-        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-    </script>
+    <script src="app.js"></script>
 </body>
-</html>
+</html></html>
 
 
 
