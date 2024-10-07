@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <div id="clima">
+    <div id="login" class="cuadro">
+        <h1>Iniciar Sesión</h1>
+        <input type="text" id="usuario" placeholder="Usuario" />
+        <input type="password" id="contrasena" placeholder="Contraseña" />
+        <button id="ingresarBtn">Ingresar</button>
+        <div id="loginResultado"></div>
+    </div>
+
+    <div id="clima" class="cuadro">
         <h1>Consulta el clima</h1>
         <input type="text" id="ciudad" placeholder="Ingresa una ciudad" />
         <button id="buscarBtn">Buscar</button>
         <div id="resultado"></div>
     </div>
+
     <footer class="footer">
         <p>Este es el footer</p>
     </footer>

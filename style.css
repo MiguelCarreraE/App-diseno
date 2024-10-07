@@ -19,14 +19,24 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
-#clima {
+.cuadro {
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 40px;
     text-align: center;
     width: 300px;
+    margin-top: 20px;
+}
+
+#clima, #login {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
 }
 
 input {
@@ -50,7 +60,7 @@ button:hover {
     background-color: #466dc2;
 }
 
-#resultado {
+#resultado, #loginResultado {
     margin-top: 10px;
     text-align: center;
     font-size: 13px;
